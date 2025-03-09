@@ -2,14 +2,22 @@
 Hyprland with catppuccin frappe theme
 
 ## Soft:
-! wm: Hyprland 
+wm: Hyprland
+
 term: Kitty
+
 notifications: Mako
+
 panel: Waybar
+
 polkit: Hyprpolkitagent
+
 filemanager: Nemo
+
 text-editor: Vim, Code-OSS
+
 tg-client: Kotatogram
+
 os: Arch
 
 ## Вот скриншот моего проекта:
