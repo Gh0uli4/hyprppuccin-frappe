@@ -20,7 +20,7 @@ tg-client: Kotatogram
 
 os: Arch
 
-## Вот скриншот моего проекта:
+## Screenshot:
 
 ![Скриншот интерфейса](https://github.com/Gh0uli4/hyprppuccin-frappe/blob/main/screen/2.png)
 
