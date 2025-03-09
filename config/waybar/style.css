@@ -1,0 +1,115 @@
+@import url("./colors.css");
+
+* {
+    border: none;
+    border-radius: 5px; /* Скругление углов */
+    font-family: "JetBrains Mono";
+    font-size: 11pt;
+    min-height: 0;
+}
+
+window#waybar {
+    background: #414559; /* Прозрачный фон для Waybar */
+    color: #c6d0f5; /* Text */
+    margin: 5px; /* Внешние отступы */
+    border-radius: 0px;
+}
+
+/* Общие стили для блоков */
+#workspaces,
+#window,
+#clock,
+#keyboard-state,
+#wireplumber,
+#tray {
+    background: #414559; /* Surface0 */
+    padding: 0 10px; /* Внутренние отступы */
+    margin: 3px; /* Внешние отступы */
+}
+
+/* Левый блок (рабочие пространства) */
+#workspaces {
+    background: #414559; /* Surface0 */
+    padding: 0px;
+    margin-left: 10px; /* Отступ слева */
+}
+
+#workspaces button {
+    padding: 0 10px; /* Внутренние отступы для кнопок */
+    background: transparent;
+    color: #c6d0f5; /* Text */
+    margin: 0 2px; /* Внешние отступы для кнопок */
+    border: 2px solid transparent; /* Прозрачная рамка */
+    border-radius: 5px; /* Скругление углов */
+}
+
+#workspaces button:hover {
+    background-color: #51576d; /* Surface1 */
+}
+
+#workspaces button.active {
+    border-color: #babbf1; /* Лавандовая рамка */
+    background-color: transparent; /* Прозрачный фон */
+    border-radius: 0px;
+}
+
+#workspaces button.urgent {
+    background-color: #e78284; /* Красный фон */
+}
+
+/* Центральный блок (активное окно) */
+#window {
+    background: #414559; /* Surface0 */
+    padding: 0 10px;
+    margin: 0 5px; /* Отступы слева и справа */
+}
+
+/* Правый блок (раскладка, звук, часы, трей) */
+#clock,
+#keyboard-state,
+#wireplumber,
+#tray {
+    background: #414559; /* Surface0 */
+    padding: 0 10px;
+    margin-right: 5px; /* Отступ справа */
+}
+
+/* Стили для часов */
+#clock {
+    background: #414559; /* Surface0 */
+    padding: 0 10px;
+    margin-right: 10px; /* Отступ справа */
+}
+
+/* Стили для раскладки клавиатуры */
+#language {
+    background: #414559; /* Surface0 */
+    padding: 0 10px;
+    margin-right: 5px; /* Отступ справа */
+}
+
+/* Стили для звука */
+#wireplumber {
+    background: #414559; /* Surface0 */
+    padding: 0 10px;
+    margin-right: 5px; /* Отступ справа */
+}
+
+/* Стили для трея */
+#tray {
+    background: #414559; /* Surface0 */
+    padding: 0 10px; /* Внутренние отступы */
+    margin-right: 5px; /* Внешние отступы */
+}
+
+#tray > .passive {
+    -gtk-icon-effect: dim;
+}
+
+#tray > .needs-attention {
+    -gtk-icon-effect: highlight;
+}
+
+#tray > .active {
+    background-color: #414559; /* Lavender */
+}
