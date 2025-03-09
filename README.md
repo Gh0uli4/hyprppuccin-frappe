@@ -1,8 +1,8 @@
 # hyprppuccin-frappe
 Hyprland with catppuccin frappe theme
 
-##Soft:
-wm: Hyprland
+## Soft:
+! wm: Hyprland 
 term: Kitty
 notifications: Mako
 panel: Waybar
